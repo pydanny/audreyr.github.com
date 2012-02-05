@@ -6,9 +6,7 @@ title: Processing.js in Jekyll
 {{ page.title }}
 ================
 
-I'm still figuring out Markdown, Liquid, and Jekyll.  
-
-Let's see if <a href="http://processingjs.org">Processing.js</a> will play nicely with this Jekyll blog/site.  This is an experiment.
+Do you have a Jekyll blog?  Want to include a <a href="http://processingjs.org">Processing.js</a> sketch into a single post?  This is the quick and dirty way to do it.
 
 PDE sketch in another file
 --------------------------
