@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Blog Posts With Custom CSS
+title: Jekyll Blog Posts With Custom CSS Pseudo-Elements
 ---
 
 <style type="text/css">
@@ -10,9 +10,7 @@ title: Jekyll Blog Posts With Custom CSS
 {{ page.title }}
 ================
 
-How do you include custom CSS in a Jekyll blog post without using inline CSS styles?
-
-Why would you want to do this, anyway?  Well, suppose you're trying to demo some interersting CSS code that you've written.  Suppose your code uses CSS pseudo-elements.  
+Suppose you're trying to demo some interersting CSS code that you've written, on your Jekyll blog.  Suppose your code uses CSS pseudo-elements.  
 
 You might think you're out of luck, since:
 
