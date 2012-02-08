@@ -22,11 +22,8 @@ You might think you're out of luck, since:
 
 But wait! It's a hack, but you can append a `<style>` element to `<head>`.  The code looks like this:
 
-    
     <div class="box"></div>
-
     <script type="text/javascript">
-    {% highlight JavaScript %}
     $(function() {
         $('<style>.box:before{ \
             background-color:#ED4C8D; \
@@ -36,15 +33,12 @@ But wait! It's a hack, but you can append a `<style>` element to `<head>`.  The 
             width:80px; \
             height:100px; \
         }</style>').appendTo('head');
-
         $(".box").css({
             'background-color': '#4CEDE2', 
             'width': '100', 
             'height': '120'
         });
-    {% endhighlight %}
     </script>
-    
 
 And the resulting box div looks like this:
 
