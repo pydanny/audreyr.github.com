@@ -6,9 +6,9 @@ title: Ballmer Peakathon at Originate
 {{ page.title }}
 ================
 
-The [Ballmer Peakathon](http://www.ballmerpeakathon.com/) is a wacky event centered around empirically testing the premise of XKCD's Ballmer Peak:
+The [Ballmer Peakathon](http://www.ballmerpeakathon.com/) is a wacky event centered around empirically testing the premise of [XKCD's Ballmer Peak](http://www.xkcd.com/323/):
 
-![Ballmer Peak, credit XKCD](/img/blog/ballmer-peak.png)
+[![Ballmer Peak, credit XKCD](/img/blog/ballmer-peak.png)](http://www.xkcd.com/323/)
 
 At the Ballmer Peakathon, attendees spent an evening coming up with and building ridiculous web applications while being treated to an open bar.  
 
