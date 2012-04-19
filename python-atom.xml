@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Audrey M. Roy's Blog</title>
+ <link href="http://audreymroy.com/atom.xml" rel="self"/>
+ <link href="http://audreymroy.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://audreymroy.com/</id>
+ <author>
+   <name>Audrey M. Roy</name>
+   <email>audreyr@cartwheelweb.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ {% if post.tags contains 'python' %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://audreymroy.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://audreymroy.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endif %}
+ {% endfor %}
+ 
+</feed>
